@@ -49,23 +49,23 @@ Final cache history size: 350
 mcf_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 12536160 cummulative IPC: 0.0797692 (Simulation time: 0 hr 0 min 7 sec) 
-CPU 0 cummulative IPC: 0.0797692 instructions: 1000000 cycles: 12536160
-LLC TOTAL     ACCESS:     220265  HIT:      42229  MISS:     178036
-LLC LOAD      ACCESS:      99761  HIT:      19335  MISS:      80426
-LLC RFO       ACCESS:       3567  HIT:        554  MISS:       3013
-LLC PREFETCH  ACCESS:      83283  HIT:       9838  MISS:      73445
-LLC WRITEBACK ACCESS:      33654  HIT:      12502  MISS:      21152
-Final OPTGen Hits: 1429
-Final OPTGen Access: 2671
-Final OPTGEN Hit Rate: 53.5006
+Finished CPU 0 instructions: 1000000 cycles: 12303550 cummulative IPC: 0.0812774 (Simulation time: 0 hr 0 min 7 sec) 
+CPU 0 cummulative IPC: 0.0812774 instructions: 1000000 cycles: 12303550
+LLC TOTAL     ACCESS:     220252  HIT:      48084  MISS:     172168
+LLC LOAD      ACCESS:      99744  HIT:      23360  MISS:      76384
+LLC RFO       ACCESS:       3570  HIT:        774  MISS:       2796
+LLC PREFETCH  ACCESS:      83280  HIT:      13588  MISS:      69692
+LLC WRITEBACK ACCESS:      33658  HIT:      10362  MISS:      23296
+Final OPTGen Hits: 1431
+Final OPTGen Access: 2677
+Final OPTGEN Hit Rate: 53.4554
 Final cache history size: 350
 
 
 xalancbmk_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 3294300 cummulative IPC: 0.303555 (Simulation time: 0 hr 0 min 5 sec) 
+Finished CPU 0 instructions: 1000000 cycles: 3294300 cummulative IPC: 0.303555 (Simulation time: 0 hr 0 min 6 sec) 
 CPU 0 cummulative IPC: 0.303555 instructions: 1000000 cycles: 3294300
 LLC TOTAL     ACCESS:      40722  HIT:          1  MISS:      40721
 LLC LOAD      ACCESS:      18321  HIT:          0  MISS:      18321

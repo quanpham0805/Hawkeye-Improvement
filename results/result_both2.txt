@@ -1,7 +1,7 @@
 bzip2_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000003 cycles: 1645007 cummulative IPC: 0.607902 (Simulation time: 0 hr 0 min 4 sec) 
+Finished CPU 0 instructions: 1000003 cycles: 1645007 cummulative IPC: 0.607902 (Simulation time: 0 hr 0 min 3 sec) 
 CPU 0 cummulative IPC: 0.607902 instructions: 1000003 cycles: 1645007
 LLC TOTAL     ACCESS:       6254  HIT:       2926  MISS:       3328
 LLC LOAD      ACCESS:       2602  HIT:       1213  MISS:       1389
@@ -17,7 +17,7 @@ Final cache history size: 350
 graph_analytics_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 2042508 cummulative IPC: 0.489594 (Simulation time: 0 hr 0 min 4 sec) 
+Finished CPU 0 instructions: 1000000 cycles: 2042508 cummulative IPC: 0.489594 (Simulation time: 0 hr 0 min 5 sec) 
 CPU 0 cummulative IPC: 0.489594 instructions: 1000000 cycles: 2042508
 LLC TOTAL     ACCESS:       4093  HIT:        283  MISS:       3810
 LLC LOAD      ACCESS:       1432  HIT:          2  MISS:       1430
@@ -49,16 +49,16 @@ Final cache history size: 350
 mcf_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 12536160 cummulative IPC: 0.0797692 (Simulation time: 0 hr 0 min 7 sec) 
-CPU 0 cummulative IPC: 0.0797692 instructions: 1000000 cycles: 12536160
-LLC TOTAL     ACCESS:     220265  HIT:      42229  MISS:     178036
-LLC LOAD      ACCESS:      99761  HIT:      19335  MISS:      80426
-LLC RFO       ACCESS:       3567  HIT:        554  MISS:       3013
-LLC PREFETCH  ACCESS:      83283  HIT:       9838  MISS:      73445
-LLC WRITEBACK ACCESS:      33654  HIT:      12502  MISS:      21152
+Finished CPU 0 instructions: 1000000 cycles: 12594230 cummulative IPC: 0.0794014 (Simulation time: 0 hr 0 min 7 sec) 
+CPU 0 cummulative IPC: 0.0794014 instructions: 1000000 cycles: 12594230
+LLC TOTAL     ACCESS:     220259  HIT:      39490  MISS:     180769
+LLC LOAD      ACCESS:      99748  HIT:      18823  MISS:      80925
+LLC RFO       ACCESS:       3568  HIT:        510  MISS:       3058
+LLC PREFETCH  ACCESS:      83287  HIT:       9978  MISS:      73309
+LLC WRITEBACK ACCESS:      33656  HIT:      10179  MISS:      23477
 Final OPTGen Hits: 1429
-Final OPTGen Access: 2671
-Final OPTGEN Hit Rate: 53.5006
+Final OPTGen Access: 2676
+Final OPTGEN Hit Rate: 53.4006
 Final cache history size: 350
 
 

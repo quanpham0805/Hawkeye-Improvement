@@ -1,7 +1,7 @@
 bzip2_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000003 cycles: 1735733 cummulative IPC: 0.576127 (Simulation time: 0 hr 0 min 4 sec) 
+Finished CPU 0 instructions: 1000003 cycles: 1735733 cummulative IPC: 0.576127 (Simulation time: 0 hr 0 min 3 sec) 
 CPU 0 cummulative IPC: 0.576127 instructions: 1000003 cycles: 1735733
 LLC TOTAL     ACCESS:       3210  HIT:        537  MISS:       2673
 LLC LOAD      ACCESS:       3096  HIT:        423  MISS:       2673
@@ -17,7 +17,7 @@ Final cache history size: 350
 graph_analytics_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000003 cycles: 2166739 cummulative IPC: 0.461524 (Simulation time: 0 hr 0 min 4 sec) 
+Finished CPU 0 instructions: 1000003 cycles: 2166739 cummulative IPC: 0.461524 (Simulation time: 0 hr 0 min 5 sec) 
 CPU 0 cummulative IPC: 0.461524 instructions: 1000003 cycles: 2166739
 LLC TOTAL     ACCESS:       2686  HIT:        133  MISS:       2553
 LLC LOAD      ACCESS:       2217  HIT:          1  MISS:       2216
@@ -33,13 +33,13 @@ Final cache history size: 350
 libquantum_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 2760135 cummulative IPC: 0.362301 (Simulation time: 0 hr 0 min 5 sec) 
-CPU 0 cummulative IPC: 0.362301 instructions: 1000000 cycles: 2760135
-LLC TOTAL     ACCESS:      99989  HIT:        320  MISS:      99669
+Finished CPU 0 instructions: 1000000 cycles: 2737290 cummulative IPC: 0.365325 (Simulation time: 0 hr 0 min 4 sec) 
+CPU 0 cummulative IPC: 0.365325 instructions: 1000000 cycles: 2737290
+LLC TOTAL     ACCESS:      99989  HIT:       1789  MISS:      98200
 LLC LOAD      ACCESS:      49995  HIT:          0  MISS:      49995
 LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
 LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
-LLC WRITEBACK ACCESS:      49994  HIT:        320  MISS:      49674
+LLC WRITEBACK ACCESS:      49994  HIT:       1789  MISS:      48205
 Final OPTGen Hits: 16
 Final OPTGen Access: 1563
 Final OPTGEN Hit Rate: 1.02367
@@ -49,16 +49,16 @@ Final cache history size: 350
 mcf_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 13870467 cummulative IPC: 0.0720956 (Simulation time: 0 hr 0 min 7 sec) 
-CPU 0 cummulative IPC: 0.0720956 instructions: 1000000 cycles: 13870467
-LLC TOTAL     ACCESS:     143272  HIT:      15805  MISS:     127467
-LLC LOAD      ACCESS:     106240  HIT:       7725  MISS:      98515
-LLC RFO       ACCESS:       3354  HIT:       1015  MISS:       2339
+Finished CPU 0 instructions: 1000000 cycles: 13642172 cummulative IPC: 0.0733021 (Simulation time: 0 hr 0 min 7 sec) 
+CPU 0 cummulative IPC: 0.0733021 instructions: 1000000 cycles: 13642172
+LLC TOTAL     ACCESS:     143274  HIT:      20070  MISS:     123204
+LLC LOAD      ACCESS:     106238  HIT:      11351  MISS:      94887
+LLC RFO       ACCESS:       3356  HIT:       1045  MISS:       2311
 LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
-LLC WRITEBACK ACCESS:      33678  HIT:       7065  MISS:      26613
-Final OPTGen Hits: 630
-Final OPTGen Access: 3075
-Final OPTGEN Hit Rate: 20.4878
+LLC WRITEBACK ACCESS:      33680  HIT:       7674  MISS:      26006
+Final OPTGen Hits: 629
+Final OPTGen Access: 3074
+Final OPTGEN Hit Rate: 20.4619
 Final cache history size: 350
 
 

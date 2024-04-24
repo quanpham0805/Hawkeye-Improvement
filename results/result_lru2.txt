@@ -1,0 +1,60 @@
+bzip2_10M.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 1000003 cycles: 1645007 cummulative IPC: 0.607902 (Simulation time: 0 hr 0 min 4 sec) 
+CPU 0 cummulative IPC: 0.607902 instructions: 1000003 cycles: 1645007
+LLC TOTAL     ACCESS:       6254  HIT:       2926  MISS:       3328
+LLC LOAD      ACCESS:       2602  HIT:       1213  MISS:       1389
+LLC RFO       ACCESS:          2  HIT:          2  MISS:          0
+LLC PREFETCH  ACCESS:       3435  HIT:       1496  MISS:       1939
+LLC WRITEBACK ACCESS:        215  HIT:        215  MISS:          0
+
+
+graph_analytics_10M.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 1000000 cycles: 2042508 cummulative IPC: 0.489594 (Simulation time: 0 hr 0 min 5 sec) 
+CPU 0 cummulative IPC: 0.489594 instructions: 1000000 cycles: 2042508
+LLC TOTAL     ACCESS:       4093  HIT:        283  MISS:       3810
+LLC LOAD      ACCESS:       1432  HIT:          2  MISS:       1430
+LLC RFO       ACCESS:        334  HIT:          0  MISS:        334
+LLC PREFETCH  ACCESS:       2047  HIT:          1  MISS:       2046
+LLC WRITEBACK ACCESS:        280  HIT:        280  MISS:          0
+
+
+libquantum_10M.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 1000000 cycles: 2578090 cummulative IPC: 0.387884 (Simulation time: 0 hr 0 min 4 sec) 
+CPU 0 cummulative IPC: 0.387884 instructions: 1000000 cycles: 2578090
+LLC TOTAL     ACCESS:      99993  HIT:      49996  MISS:      49997
+LLC LOAD      ACCESS:      24213  HIT:          0  MISS:      24213
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:      25784  HIT:          0  MISS:      25784
+LLC WRITEBACK ACCESS:      49996  HIT:      49996  MISS:          0
+
+
+mcf_10M.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 1000000 cycles: 12173356 cummulative IPC: 0.0821466 (Simulation time: 0 hr 0 min 8 sec) 
+CPU 0 cummulative IPC: 0.0821466 instructions: 1000000 cycles: 12173356
+LLC TOTAL     ACCESS:     220268  HIT:      77272  MISS:     142996
+LLC LOAD      ACCESS:      99760  HIT:      24751  MISS:      75009
+LLC RFO       ACCESS:       3569  HIT:       1028  MISS:       2541
+LLC PREFETCH  ACCESS:      83279  HIT:      17836  MISS:      65443
+LLC WRITEBACK ACCESS:      33660  HIT:      33657  MISS:          3
+
+
+xalancbmk_10M.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 1000000 cycles: 3294300 cummulative IPC: 0.303555 (Simulation time: 0 hr 0 min 5 sec) 
+CPU 0 cummulative IPC: 0.303555 instructions: 1000000 cycles: 3294300
+LLC TOTAL     ACCESS:      40722  HIT:          0  MISS:      40722
+LLC LOAD      ACCESS:      18321  HIT:          0  MISS:      18321
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:      22401  HIT:          0  MISS:      22401
+LLC WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+
+

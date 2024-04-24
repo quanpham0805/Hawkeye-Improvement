@@ -49,16 +49,16 @@ Final cache history size: 350
 mcf_10M.trace.gz
 LLC sets: 2048
 LLC ways: 16
-Finished CPU 0 instructions: 1000000 cycles: 12536160 cummulative IPC: 0.0797692 (Simulation time: 0 hr 0 min 7 sec) 
-CPU 0 cummulative IPC: 0.0797692 instructions: 1000000 cycles: 12536160
-LLC TOTAL     ACCESS:     220265  HIT:      42229  MISS:     178036
-LLC LOAD      ACCESS:      99761  HIT:      19335  MISS:      80426
-LLC RFO       ACCESS:       3567  HIT:        554  MISS:       3013
-LLC PREFETCH  ACCESS:      83283  HIT:       9838  MISS:      73445
-LLC WRITEBACK ACCESS:      33654  HIT:      12502  MISS:      21152
-Final OPTGen Hits: 1429
+Finished CPU 0 instructions: 1000000 cycles: 11885317 cummulative IPC: 0.0841374 (Simulation time: 0 hr 0 min 7 sec) 
+CPU 0 cummulative IPC: 0.0841374 instructions: 1000000 cycles: 11885317
+LLC TOTAL     ACCESS:     220254  HIT:      56881  MISS:     163373
+LLC LOAD      ACCESS:      99749  HIT:      29305  MISS:      70444
+LLC RFO       ACCESS:       3568  HIT:        681  MISS:       2887
+LLC PREFETCH  ACCESS:      83279  HIT:      12950  MISS:      70329
+LLC WRITEBACK ACCESS:      33658  HIT:      13945  MISS:      19713
+Final OPTGen Hits: 1430
 Final OPTGen Access: 2671
-Final OPTGEN Hit Rate: 53.5006
+Final OPTGEN Hit Rate: 53.538
 Final cache history size: 350
 
 
