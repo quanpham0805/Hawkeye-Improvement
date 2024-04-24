@@ -1,0 +1,208 @@
+astar_163B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 204081200 cummulative IPC: 0.490001 (Simulation time: 0 hr 9 min 45 sec) 
+CPU 0 cummulative IPC: 0.490001 instructions: 100000000 cycles: 204081200
+LLC TOTAL     ACCESS:     526494  HIT:     302624  MISS:     223870
+LLC LOAD      ACCESS:     125279  HIT:      66503  MISS:      58776
+LLC RFO       ACCESS:      60765  HIT:      16488  MISS:      44277
+LLC PREFETCH  ACCESS:     170169  HIT:      80572  MISS:      89597
+LLC WRITEBACK ACCESS:     170281  HIT:     139061  MISS:      31220
+Final OPTGen Hits: 5218
+Final OPTGen Access: 5897
+Final OPTGEN Hit Rate: 88.4857
+Final cache history size: 350
+
+
+gcc_13B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 473379420 cummulative IPC: 0.211247 (Simulation time: 0 hr 11 min 46 sec) 
+CPU 0 cummulative IPC: 0.211247 instructions: 100000000 cycles: 473379420
+LLC TOTAL     ACCESS:    3443503  HIT:     378183  MISS:    3065320
+LLC LOAD      ACCESS:    1134562  HIT:      80128  MISS:    1054434
+LLC RFO       ACCESS:     199171  HIT:      16545  MISS:     182626
+LLC PREFETCH  ACCESS:    1553304  HIT:     107619  MISS:    1445685
+LLC WRITEBACK ACCESS:     556466  HIT:     173891  MISS:     382575
+Final OPTGen Hits: 7646
+Final OPTGen Access: 37114
+Final OPTGEN Hit Rate: 20.6014
+Final cache history size: 350
+
+
+GemsFDTD_109B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 161206639 cummulative IPC: 0.620322 (Simulation time: 0 hr 10 min 57 sec) 
+CPU 0 cummulative IPC: 0.620322 instructions: 100000000 cycles: 161206639
+LLC TOTAL     ACCESS:    5406505  HIT:     277868  MISS:    5128637
+LLC LOAD      ACCESS:     223241  HIT:      28851  MISS:     194390
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:    3748201  HIT:     112310  MISS:    3635891
+LLC WRITEBACK ACCESS:    1435063  HIT:     136707  MISS:    1298356
+Final OPTGen Hits: 4069
+Final OPTGen Access: 13207
+Final OPTGEN Hit Rate: 30.8094
+Final cache history size: 350
+
+
+calculix_2655B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000002 cycles: 51909638 cummulative IPC: 1.92642 (Simulation time: 0 hr 6 min 35 sec) 
+CPU 0 cummulative IPC: 1.92642 instructions: 100000002 cycles: 51909638
+LLC TOTAL     ACCESS:    1502473  HIT:    1368712  MISS:     133761
+LLC LOAD      ACCESS:     179799  HIT:     164763  MISS:      15036
+LLC RFO       ACCESS:      32361  HIT:      19621  MISS:      12740
+LLC PREFETCH  ACCESS:     934532  HIT:     834781  MISS:      99751
+LLC WRITEBACK ACCESS:     355781  HIT:     349547  MISS:       6234
+Final OPTGen Hits: 15511
+Final OPTGen Access: 5944
+Final OPTGEN Hit Rate: 260.952
+Final cache history size: 350
+
+
+h264ref_178B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000001 cycles: 108872965 cummulative IPC: 0.918502 (Simulation time: 0 hr 9 min 38 sec) 
+CPU 0 cummulative IPC: 0.918502 instructions: 100000001 cycles: 108872965
+LLC TOTAL     ACCESS:     267614  HIT:     199344  MISS:      68270
+LLC LOAD      ACCESS:      30773  HIT:      21457  MISS:       9316
+LLC RFO       ACCESS:      65232  HIT:      46506  MISS:      18726
+LLC PREFETCH  ACCESS:     103466  HIT:      73532  MISS:      29934
+LLC WRITEBACK ACCESS:      68143  HIT:      57849  MISS:      10294
+Final OPTGen Hits: 3022
+Final OPTGen Access: 3418
+Final OPTGEN Hit Rate: 88.4143
+Final cache history size: 350
+
+
+bwaves_1609B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000001 cycles: 121567522 cummulative IPC: 0.822588 (Simulation time: 0 hr 11 min 44 sec) 
+CPU 0 cummulative IPC: 0.822588 instructions: 100000001 cycles: 121567522
+LLC TOTAL     ACCESS:    2453932  HIT:     151683  MISS:    2302249
+LLC LOAD      ACCESS:     651141  HIT:      46533  MISS:     604608
+LLC RFO       ACCESS:      58378  HIT:          0  MISS:      58378
+LLC PREFETCH  ACCESS:    1685410  HIT:      93331  MISS:    1592079
+LLC WRITEBACK ACCESS:      59003  HIT:      11819  MISS:      47184
+Final OPTGen Hits: 2157
+Final OPTGen Access: 13528
+Final OPTGEN Hit Rate: 15.9447
+Final cache history size: 350
+
+
+cactusADM_1039B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 208678420 cummulative IPC: 0.479206 (Simulation time: 0 hr 10 min 54 sec) 
+CPU 0 cummulative IPC: 0.479206 instructions: 100000000 cycles: 208678420
+LLC TOTAL     ACCESS:    1113041  HIT:     148993  MISS:     964048
+LLC LOAD      ACCESS:      27713  HIT:       2894  MISS:      24819
+LLC RFO       ACCESS:     245180  HIT:      14398  MISS:     230782
+LLC PREFETCH  ACCESS:     594422  HIT:      56299  MISS:     538123
+LLC WRITEBACK ACCESS:     245726  HIT:      75402  MISS:     170324
+Final OPTGen Hits: 3101
+Final OPTGen Access: 8479
+Final OPTGEN Hit Rate: 36.5727
+Final cache history size: 350
+
+
+bzip2_183B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000002 cycles: 110518898 cummulative IPC: 0.904823 (Simulation time: 0 hr 8 min 16 sec) 
+CPU 0 cummulative IPC: 0.904823 instructions: 100000002 cycles: 110518898
+LLC TOTAL     ACCESS:    1592678  HIT:    1419186  MISS:     173492
+LLC LOAD      ACCESS:     524597  HIT:     515111  MISS:       9486
+LLC RFO       ACCESS:     174456  HIT:     133309  MISS:      41147
+LLC PREFETCH  ACCESS:     709302  HIT:     602209  MISS:     107093
+LLC WRITEBACK ACCESS:     184323  HIT:     168557  MISS:      15766
+Final OPTGen Hits: 25998
+Final OPTGen Access: 21531
+Final OPTGEN Hit Rate: 120.747
+Final cache history size: 350
+
+
+gromacs_1B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 98311681 cummulative IPC: 1.01717 (Simulation time: 0 hr 8 min 27 sec) 
+CPU 0 cummulative IPC: 1.01717 instructions: 100000000 cycles: 98311681
+LLC TOTAL     ACCESS:     227220  HIT:     224473  MISS:       2747
+LLC LOAD      ACCESS:      69015  HIT:      68740  MISS:        275
+LLC RFO       ACCESS:      12973  HIT:      11821  MISS:       1152
+LLC PREFETCH  ACCESS:      90084  HIT:      88799  MISS:       1285
+LLC WRITEBACK ACCESS:      55148  HIT:      55113  MISS:         35
+Final OPTGen Hits: 4068
+Final OPTGen Access: 2755
+Final OPTGEN Hit Rate: 147.659
+Final cache history size: 350
+
+
+sphinx3_1339B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 99819883 cummulative IPC: 1.0018 (Simulation time: 0 hr 8 min 9 sec) 
+CPU 0 cummulative IPC: 1.0018 instructions: 100000000 cycles: 99819883
+LLC TOTAL     ACCESS:    1613627  HIT:     845573  MISS:     768054
+LLC LOAD      ACCESS:     223031  HIT:     151041  MISS:      71990
+LLC RFO       ACCESS:     108542  HIT:      89053  MISS:      19489
+LLC PREFETCH  ACCESS:    1144600  HIT:     473321  MISS:     671279
+LLC WRITEBACK ACCESS:     137454  HIT:     132158  MISS:       5296
+Final OPTGen Hits: 9894
+Final OPTGen Access: 9770
+Final OPTGEN Hit Rate: 101.269
+Final cache history size: 350
+
+
+gobmk_135B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 232318763 cummulative IPC: 0.430443 (Simulation time: 0 hr 8 min 54 sec) 
+CPU 0 cummulative IPC: 0.430443 instructions: 100000000 cycles: 232318763
+LLC TOTAL     ACCESS:     532160  HIT:     481185  MISS:      50975
+LLC LOAD      ACCESS:     192339  HIT:     175023  MISS:      17316
+LLC RFO       ACCESS:      58450  HIT:      54688  MISS:       3762
+LLC PREFETCH  ACCESS:     169718  HIT:     142756  MISS:      26962
+LLC WRITEBACK ACCESS:     111653  HIT:     108718  MISS:       2935
+Final OPTGen Hits: 10041
+Final OPTGen Access: 8897
+Final OPTGEN Hit Rate: 112.858
+Final cache history size: 350
+
+
+zeusmp_100B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 70048514 cummulative IPC: 1.42758 (Simulation time: 0 hr 7 min 59 sec) 
+CPU 0 cummulative IPC: 1.42758 instructions: 100000000 cycles: 70048514
+LLC TOTAL     ACCESS:     832390  HIT:     115449  MISS:     716941
+LLC LOAD      ACCESS:      18399  HIT:       5671  MISS:      12728
+LLC RFO       ACCESS:     204070  HIT:       5092  MISS:     198978
+LLC PREFETCH  ACCESS:     405404  HIT:      52020  MISS:     353384
+LLC WRITEBACK ACCESS:     204517  HIT:      52666  MISS:     151851
+Final OPTGen Hits: 1887
+Final OPTGen Access: 7239
+Final OPTGEN Hit Rate: 26.0671
+Final cache history size: 350
+
+
+gamess_196B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 106072836 cummulative IPC: 0.942748 (Simulation time: 0 hr 9 min 31 sec) 
+CPU 0 cummulative IPC: 0.942748 instructions: 100000000 cycles: 106072836
+LLC TOTAL     ACCESS:      27153  HIT:      26547  MISS:        606
+LLC LOAD      ACCESS:      13232  HIT:      12890  MISS:        342
+LLC RFO       ACCESS:       2017  HIT:       1919  MISS:         98
+LLC PREFETCH  ACCESS:       7769  HIT:       7603  MISS:        166
+LLC WRITEBACK ACCESS:       4135  HIT:       4135  MISS:          0
+Final OPTGen Hits: 936
+Final OPTGen Access: 786
+Final OPTGEN Hit Rate: 119.084
+Final cache history size: 350
+
+

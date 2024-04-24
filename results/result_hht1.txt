@@ -1,0 +1,62 @@
+sphinx3_1339B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000000 cycles: 141990485 cummulative IPC: 0.704273 (Simulation time: 0 hr 8 min 5 sec) 
+CPU 0 cummulative IPC: 0.704273 instructions: 100000000 cycles: 141990485
+LLC TOTAL     ACCESS:    1473130  HIT:     874473  MISS:     598657
+LLC LOAD      ACCESS:    1224989  HIT:     680089  MISS:     544900
+LLC RFO       ACCESS:     111229  HIT:      74878  MISS:      36351
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:     136912  HIT:     119506  MISS:      17406
+Final OPTGen Hits: 27349
+Final OPTGen Access: 41549
+Final OPTGEN Hit Rate: 65.8235
+Final cache history size: 350
+
+
+h264ref_178B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+Finished CPU 0 instructions: 100000001 cycles: 111072479 cummulative IPC: 0.900313 (Simulation time: 0 hr 9 min 18 sec) 
+CPU 0 cummulative IPC: 0.900313 instructions: 100000001 cycles: 111072479
+LLC TOTAL     ACCESS:     240403  HIT:     184746  MISS:      55657
+LLC LOAD      ACCESS:     106787  HIT:      78686  MISS:      28101
+LLC RFO       ACCESS:      66130  HIT:      48143  MISS:      17987
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      67486  HIT:      57917  MISS:       9569
+Final OPTGen Hits: 4332
+Final OPTGen Access: 5855
+Final OPTGEN Hit Rate: 73.988
+Final cache history size: 350
+
+
+GemsFDTD_109B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
+gcc_13B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
+calculix_2655B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
+cactusADM_1039B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
+bzip2_183B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
+astar_163B.trace.gz
+LLC sets: 2048
+LLC ways: 16
+
+
