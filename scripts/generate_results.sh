@@ -2,18 +2,18 @@ task() {
   pn=$1
   tn=$2
   ni=$3
-  lockfile result_$pn.txt.lock
+  lockfile ../results/result_$pn.txt.lock
   echo $pn $tn $ni
-  echo $tn >> result_$pn.txt
-  ./$pn -hide_heartbeat -warmup_instructions $ni -simulation_instructions $ni -traces trace/big/$tn | grep -E "LLC|Final|IPC" >> result_$pn.txt
-  printf "\n\n" >> result_$pn.txt
+  echo $tn >> ../results/result_$pn.txt
+  ../prog/$pn -hide_heartbeat -warmup_instructions $ni -simulation_instructions $ni -traces trace/big/$tn | grep -E "LLC|Final|IPC" >> ../results/result_$pn.txt
+  printf "\n\n" >> ../results/result_$pn.txt
   echo "done"
-  rm -f result_$pn.txt.lock
+  rm -f ../results/result_$pn.txt.lock
 }
 
 for progn in "hht1" "hht2" "ph1" "ph2"; do
-  rm result_$progn.txt ;
-  touch result_$progn.txt ;
+  rm ../results/result_$progn.txt ;
+  touch ../results/result_$progn.txt ;
 done
 
 for progn in "hht1" "hht2" "ph1" "ph2"; do
