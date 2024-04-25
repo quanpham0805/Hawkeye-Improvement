@@ -3,13 +3,13 @@ task() {
   tn=$2
   ni=$3
   dir=$4
-  # lockfile results/result_$pn.txt.lock
+  lockfile results/result_$pn.txt.lock
   echo $pn $tn $ni
   echo $tn >> results/result_$pn.txt
   prog/$pn -hide_heartbeat -warmup_instructions $ni -simulation_instructions $ni -traces trace/$dir/$tn | grep -E "LLC|Final|IPC" >> results/result_$pn.txt
   printf "\n\n" >> results/result_$pn.txt
   echo "done"
-  # rm -f results/result_$pn.txt.lock
+  rm -f results/result_$pn.txt.lock
 }
 
 dir=$1
@@ -24,6 +24,6 @@ done
 
 for progn in $progs; do
   for tr in $traces; do
-    task $progn $tr $nins $dir
+    task $progn $tr $nins $dir &
   done
 done

@@ -11,23 +11,21 @@
 using namespace std;
 
 class PerceptronPredictor {
-  bitset<HIST_LEN> ghr[PERCEPTRON_TABLE_SIZE];
+  bitset<HIST_LEN> ghr;
   uint32_t perceptron_step;
   int32_t perceptron_table[PERCEPTRON_TABLE_SIZE][HIST_LEN + 1];
 
   uint64_t hash_pc(uint64_t pc) {
-    uint64_t pcend = pc % PERCEPTRON_TABLE_SIZE;
-    return pcend;
-    // uint64_t ghrend = ghr.to_ullong() % PERCEPTRON_TABLE_SIZE;
-    // return pcend ^ ghrend;
+    uint64_t pcend = CRC(pc) % PERCEPTRON_TABLE_SIZE;
+    uint64_t ghrend = ((uint64_t)ghr.to_ullong()) % PERCEPTRON_TABLE_SIZE;
+    return pcend ^ ghrend;
   }
 
  public:
   PerceptronPredictor() {
     perceptron_step = 0;
-    
+    ghr = bitset<HIST_LEN>();
     for (size_t i = 0; i < PERCEPTRON_TABLE_SIZE; i++) {
-      ghr[i] = bitset<HIST_LEN>();
       for (size_t j = 0; j < HIST_LEN + 1; j++) {
         perceptron_table[i][j] = 0;
       }
@@ -39,7 +37,7 @@ class PerceptronPredictor {
     int sum = perceptron_table[hash][0];
 
     for (size_t i = 1; i < HIST_LEN + 1; i++) {
-      if (ghr[hash][i - 1]) {
+      if (ghr[i - 1]) {
         sum += perceptron_table[hash][i];
       } else {
         sum -= perceptron_table[hash][i];
@@ -85,8 +83,8 @@ class PerceptronPredictor {
     }
 
     // update the GHR by shifting left and setting new bit.
-    ghr[hash] = (ghr[hash] << 1);
-    ghr[hash].set(0, result);
+    ghr = (ghr << 1);
+    ghr.set(0, result);
   }
 };
 
