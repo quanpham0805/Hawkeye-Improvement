@@ -3,6 +3,7 @@
 
 #include <bitset>
 #include <cstdint>
+#include <cmath>
 
 #define PERCEPTRON_TABLE_SIZE 2048  // Determined by threshold and history length
 #define THRESHOLD 44    // Floor(1.93 * HIST_LEN + 14) as specified in paper
@@ -51,7 +52,7 @@ class PerceptronPredictor {
     // Update the perceptron table entry only if the threshold has not been
     // reached or the predicted and true outcomes disagree. Update the bias
     // first, then the weights. Correct for overflow.
-    if (result != prediction || abs(get) <= THRESHOLD) {
+    if (result != prediction || abs(get_weighted_sum(hash)) <= THRESHOLD) {
       // If the branch was taken, increment the bias value. Else, decrement it.
 
       if (result) {
