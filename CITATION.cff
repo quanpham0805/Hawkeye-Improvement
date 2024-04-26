@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pham"
+  given-names: "Quan"
+- family-names: "Pham"
+  given-names: "Quan"
+title: "Hawkeye Improvement Implementation"
+version: 1.0.0
+date-released: 2024-04-26
+url: "https://github.com/quanpham0805/Hawkeye-Improvement"
